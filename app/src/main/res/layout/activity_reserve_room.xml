@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReserveRoomActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ReservationRoomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/MessageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Vælg et tidspunkt at starte fra:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/FromDateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="FromDatePickButtonClicked"
+            android:text="Dato" />
+
+        <Button
+            android:id="@+id/FromTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="FromTimePickButtonClicked"
+            android:text="Tidspunkt" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Vælg en dato at slutte på:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ToDateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="ToDatePickButtonClicked"
+            android:text="Dato" />
+
+        <Button
+            android:id="@+id/ToTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="ToTimePickButtonClicked"
+            android:text="Tidspunkt" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ReservationReasonEditText"
+        android:hint="Undervisning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ReserveRoomButton"
+        android:text="Reserver lokale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ReserveRoomButtonClicked"/>
+
+</LinearLayout>

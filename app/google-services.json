@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "134617351048",
+    "firebase_url": "https://roomreservationmandatory-ce486.firebaseio.com",
+    "project_id": "roomreservationmandatory-ce486",
+    "storage_bucket": "roomreservationmandatory-ce486.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134617351048:android:96d9dfa91d1821e0b0b03d",
+        "android_client_info": {
+          "package_name": "com.example.roomreservationmandatory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134617351048-eu10u26un0fudh0c7en80burhqrd4e8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roomreservationmandatory",
+            "certificate_hash": "6565e0c1e8ef2f3493847ec4b8b23fee392f73cb"
+          }
+        },
+        {
+          "client_id": "134617351048-71sp7brlp9avivlm2i9jsre7busl244f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmng7JOVKqx-xCDm8pLki8wm6bNs3cCaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134617351048-71sp7brlp9avivlm2i9jsre7busl244f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
